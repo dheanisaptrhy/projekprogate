@@ -1,0 +1,225 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: "Segoe UI";
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*.heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}*/
+
+.heading h1 {
+    text-align: center;
+}
+
+/*header*/
+header{
+	width: 100%;
+	height: 65px;
+	background-color: #1A1A2E;/*
+	line-height: 75px;
+	padding:0 70px;*/
+	position:fixed;
+	z-index: 10; 
+	top:0;
+}
+
+.logo{
+	float:left;
+	color: white;
+}
+
+.logo h1{
+	margin-top: 7px;
+}
+
+header ul{
+	float: right;
+	margin-right: -25px;
+}
+
+header li{
+	list-style: none;
+	float: left;
+}
+
+header a{
+	color:white;
+	padding:0 25px;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	line-height: 65px;
+	/*padding:7 15px;*/
+	font-weight: bold;
+}
+
+header a:hover{
+	background-color: #804C93;
+}
+
+/*Banner*/
+.banner-wrapper{
+    padding: 300px 0 300px 0;
+    background-image: url("img/sampul.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.banner-wrapper h1{
+    font-size: 75px;
+    letter-spacing: 3px;
+    /*margin-bottom: 10px;*/
+}
+
+.banner-wrapper p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/*our jobs*/
+.job-wrapper {
+    height: 500px;
+    position: relative;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.job {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.job-icon{
+	position: relative;
+	display: inline-block;
+	color: #504C93;
+}
+
+/*our partner*/
+.partner-wrapper {
+    height: 350px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.contents{
+	float: center;
+	/*margin: auto;*/
+}
+.contents-item {
+    float: left;
+    margin-right: 10px;
+    width: 32%;
+}
+/*our portofolio*/
+.heading{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #504C93;
+}
+
+.portofolio-wrapper{
+    position: relative;
+    height: 500px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.portofolios{
+    margin: 0 auto;
+}
+.portofolio{
+    float: left;
+    margin: 15px 15px;
+    width: 30%;
+}
+
+.image{
+    display: inline-block;
+    width: 100%;
+    /*height: auto; */
+}
+
+.portofolio-img{
+    position: relative;
+}
+
+.portofolio:hover .overlay{
+    opacity: 0.7;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    opacity: 0;
+    transition: all .5s ;
+    background-color: #000000;
+}
+.overlay h2 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+}
+
+footer {
+    background-color:#1A1A2E;
+   	height: 100px;
+   	width: 100%;
+   	padding :25px 50px;
+}
+  
+.footer-logo {
+    font-size : 18px;
+   	float : left;
+   	margin-top: 16px;
+   	/*padding: 8px 15px;*/
+   	letter-spacing: 1.6px;
+   	color : #fff;
+   	margin-left: -25px;
+}
+  
+footer ul {
+    float :right;
+    margin-right: -25px;
+}
+  
+footer li {
+   	/*padding-bottom : 20px;*/
+    list-style: none;
+    float: left;
+    padding: 12 32px;
+}
+
+footer a{
+	padding: 0 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 55px;
+    font-size: 15px;
+}
+
+footer a:hover{
+	color: lightsteelblue;
+}
